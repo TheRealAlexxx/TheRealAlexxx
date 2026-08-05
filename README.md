@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://github.com/TheRealAlexxx">
-  <img src="https://readme-typing-svg.demolab.com/?lines=hi%2C+I'm+alexxx;UK+%2F+developer;into+AI+agents+and+local+LLMs;deep+in+Hack+Club;just+shipped+TraceLens+%E2%9C%94&font=Fira+Code&center=true&width=550&height=60&duration=2500&pause=900&color=00FFF2&vCenter=true&size=22&background=00000000" alt="typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com/?lines=hi%2C+I'm+alexxx;UK+%2F+developer;into+AI+agents+and+local+LLMs;deep+in+Hack+Club&font=Fira+Code&center=true&width=550&height=60&duration=2500&pause=900&color=00FFF2&vCenter=true&size=22&background=00000000" alt="typing intro"/>
 </a>
 
 <br/><br/>
@@ -24,7 +24,7 @@
 
 I'm alexxx, a developer from the UK. I care about AI agents, local LLMs, developer tools, and building things that make other people's building easier. Desktop apps, web apps, whatever the problem actually needs.
 
-My GitHub used to be thin — most of what I'd shipped lived inside Hack Club rather than my own repos. That's closing. First line item below is live on PyPI right now.
+My GitHub is still thin. Most of what I've actually shipped lives inside Hack Club rather than my own repos. That's a gap I'm closing, not a status I'm hiding.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
@@ -70,7 +70,7 @@ Teenagers can ship production grade software if you give them real ownership ins
 
 ## `03` Right Now
 
-Heads down on AI agents and where local LLMs genuinely beat API calls. Backing that belief with software, not just opinions: TraceLens runs a local model in a pip install and explains Python errors fully offline. Still running YSWS programs on the side.
+Mostly heads down on AI agents and figuring out where local LLMs actually make sense over API calls. Running YSWS programs on the side. Slowly moving more of what I build out of Hack Club repos and into my own.
 
 <div align="center">
 <img src="https://img.shields.io/badge/AI_Agents-00fff2?style=flat-square&labelColor=0d0d0d"/>
@@ -114,11 +114,11 @@ Heads down on AI agents and where local LLMs genuinely beat API calls. Backing t
 </tr>
 <tr>
 <td>AI</td>
-<td>LLM APIs, local inference (ONNX), agent pipelines</td>
+<td>LLM APIs, local inference, agent pipelines</td>
 </tr>
 <tr>
 <td>Tooling</td>
-<td>Git, Docker, Vercel, GitHub Actions</td>
+<td>Git, Docker, Vercel</td>
 </tr>
 </table>
 
@@ -128,40 +128,13 @@ Heads down on AI agents and where local LLMs genuinely beat API calls. Backing t
 
 ## `05` Projects
 
-### TraceLens — AI error assistant for Python
-
 <div align="center">
 
-[![PyPI](https://img.shields.io/badge/PyPI-tracelens--ai-00fff2?style=for-the-badge&labelColor=0d0d0d)](https://pypi.org/project/tracelens-ai/)
-[![Source](https://img.shields.io/badge/source-github-8be9fd?style=for-the-badge&labelColor=0d0d0d)](https://github.com/TheRealAlexxx/tracelens)
-[![Version](https://img.shields.io/badge/version-0.3.0-ff6b6b?style=for-the-badge&labelColor=0d0d0d)](https://pypi.org/project/tracelens-ai/)
+Nothing pinned here yet worth pointing at directly. Most of my work lives inside Hack Club right now.
+
+That's changing. This section gets filled in as things move over.
 
 </div>
-
-One import changes how you hit Python errors. `import tracelens` hooks uncaught exceptions and explains them: the failing line, the cause, a suggested fix, a confidence score — with the original traceback always printed first. It never hides the error, it just stops leaving you alone with it.
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-**How it works**
-
-Ships a Qwen2.5-0.5B local LLM as a ~780 MB ONNX package — fully offline, CPU only, no API keys, no data leaving the machine. The model downloads once on first use and caches locally.
-
-</td>
-<td width="50%" valign="top">
-
-**The fallback**
-
-A deterministic rule engine guarantees offline advice even when the model isn't cached or isn't reachable. No network, no model, still useful.
-
-</td>
-</tr>
-</table>
-
-Published to PyPI via a fully automated GitHub Actions pipeline using OpenID Connect trusted publishing — build and ship happens on a `git tag`, no tokens. CLI included: `tracelens demo | info | model | purge`.
-
-> First line item. More where this came from.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
@@ -169,7 +142,7 @@ Published to PyPI via a fully automated GitHub Actions pipeline using OpenID Con
 
 ## `06` Philosophy
 
-Ship the system, not the demo. Community is infrastructure, treat it like one. Build the thing that outlasts the reason you started it. If you're going to run a local model on the user's CPU anyway, make the whole product work without a network at all.
+Ship the system, not the demo. Community is infrastructure, treat it like one. Build the thing that outlasts the reason you started it.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
