@@ -33,9 +33,9 @@
 alex@github
 ------------------------------------------------
 
-. OS: ........................ Windows 11, Linux, Android
+. OS: ........................ Windows 11, Linux, IOS
 . Host: ...................... Custom PC
-. IDE: ....................... VS Code, Cursor
+. IDE: ....................... VS Code
 . Terminal: .................. PowerShell
 
 . Languages.Programming: ..... Python, TypeScript, JavaScript
@@ -48,7 +48,8 @@ alex@github
 
 - Community ------------------------------------------------
 
-. Hack Club: ................. Member & Builder
+. Hack Club: ................. YSWS Organiser, Multi-Program Lead
+. Role: ....................... Community Leadership & Infra
 . Philosophy: ................ Build. Learn. Ship.
 
 - Contact --------------------------------------------------
