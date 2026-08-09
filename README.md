@@ -54,7 +54,7 @@ alex@github
 
 - Contact --------------------------------------------------
 
-. Email: ...................... alexxxbuilds@gmail.com
+. Email: ...................... alexxx@hackclub.community
 . GitHub: ..................... TheRealAlexxx
 
 - Status ---------------------------------------------------
