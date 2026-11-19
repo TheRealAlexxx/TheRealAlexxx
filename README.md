@@ -52,6 +52,10 @@ alex@github
 . Role: ....................... Community Leadership & Infra
 . Philosophy: ................ Build. Learn. Ship.
 
+- Open Source ----------------------------------------------
+
+. Contributions: ............. vscode, webkit, ruby, react, modrinth
+
 - Contact --------------------------------------------------
 
 . Email: ...................... alexxx@hackclub.community
